@@ -1,0 +1,9 @@
+package keywordDriven;
+
+import org.apache.poi.ss.usermodel.Workbook;
+
+public class ReadExcelFile {
+	File file =    new File("D:\\Day01\\Sample\\TestData.xlsx");
+	FileInputStream inputStream = new FileInputStream(file);
+    Workbook wb = null;
+}
